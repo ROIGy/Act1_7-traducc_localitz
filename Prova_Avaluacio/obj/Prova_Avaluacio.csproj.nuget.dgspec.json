@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jorda\\source\\repos\\Prova_Avaluacio\\Prova_Avaluacio\\Prova_Avaluacio.csproj": {}
+    "C:\\Users\\jorda\\source\\repos\\Act1_7-localitz-traducc\\Prova_Avaluacio\\Prova_Avaluacio.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jorda\\source\\repos\\Prova_Avaluacio\\Prova_Avaluacio\\Prova_Avaluacio.csproj": {
+    "C:\\Users\\jorda\\source\\repos\\Act1_7-localitz-traducc\\Prova_Avaluacio\\Prova_Avaluacio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jorda\\source\\repos\\Prova_Avaluacio\\Prova_Avaluacio\\Prova_Avaluacio.csproj",
+        "projectUniqueName": "C:\\Users\\jorda\\source\\repos\\Act1_7-localitz-traducc\\Prova_Avaluacio\\Prova_Avaluacio.csproj",
         "projectName": "Prova_Avaluacio",
-        "projectPath": "C:\\Users\\jorda\\source\\repos\\Prova_Avaluacio\\Prova_Avaluacio\\Prova_Avaluacio.csproj",
+        "projectPath": "C:\\Users\\jorda\\source\\repos\\Act1_7-localitz-traducc\\Prova_Avaluacio\\Prova_Avaluacio.csproj",
         "packagesPath": "C:\\Users\\jorda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jorda\\source\\repos\\Prova_Avaluacio\\Prova_Avaluacio\\obj\\",
+        "outputPath": "C:\\Users\\jorda\\source\\repos\\Act1_7-localitz-traducc\\Prova_Avaluacio\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

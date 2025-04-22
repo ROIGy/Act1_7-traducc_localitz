@@ -115,7 +115,7 @@
             label4.Font = new Font("Segoe UI", 11F);
             label4.Location = new Point(73, 125);
             label4.Name = "label4";
-            label4.Size = new Size(190, 23);
+            label4.Size = new Size(190, 37);
             label4.TabIndex = 22;
             label4.Text = "Escull la teva jugada";
             // 
