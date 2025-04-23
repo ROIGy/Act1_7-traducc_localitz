@@ -9,6 +9,17 @@
       "Prova_Avaluacio/1.0.0": {
         "runtime": {
           "Prova_Avaluacio.dll": {}
+        },
+        "resources": {
+          "de/Prova_Avaluacio.resources.dll": {
+            "locale": "de"
+          },
+          "el-GR/Prova_Avaluacio.resources.dll": {
+            "locale": "el-GR"
+          },
+          "it-IT/Prova_Avaluacio.resources.dll": {
+            "locale": "it-IT"
+          }
         }
       }
     }

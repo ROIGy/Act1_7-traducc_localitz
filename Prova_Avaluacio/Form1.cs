@@ -1,3 +1,5 @@
+using System.Globalization;
+
 namespace Prova_Avaluacio
 {
     public partial class Form1 : Form
@@ -8,6 +10,8 @@ namespace Prova_Avaluacio
         public Form1()
         {
             InitializeComponent();
+            this.Load += new EventHandler(Form1_Load);
+
             partidaActual = new Partida();
 
             btnPedra.Enabled = false;
@@ -17,6 +21,54 @@ namespace Prova_Avaluacio
             btnSpock.Enabled = false;
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+            comboLang.Items.Add(new CultureInfo("ca")); // Català
+            comboLang.Items.Add(new CultureInfo("de")); // Alemany
+            comboLang.Items.Add(new CultureInfo("it-IT")); // Italià
+            comboLang.Items.Add(new CultureInfo("el-GR")); // Grec
+            comboLang.Items.Add(new CultureInfo("he-IL")); // Hebreu
+
+            comboLang.DisplayMember = "NativeName";
+            comboLang.SelectedItem = Thread.CurrentThread.CurrentUICulture;
+
+            comboLang.SelectedIndexChanged += comboLang_SelectedIndexChanged;
+        }
+
+        private void ReomplirComboIdiomes()
+        {
+            comboLang.Items.Clear(); // Per si de cas
+            comboLang.Items.Add(new CultureInfo("ca")); // Català
+            comboLang.Items.Add(new CultureInfo("de")); // Alemany
+            comboLang.Items.Add(new CultureInfo("it-IT")); // Italià
+            comboLang.Items.Add(new CultureInfo("el-GR")); // Grec
+            comboLang.Items.Add(new CultureInfo("he-IL")); // Hebreu
+
+            comboLang.DisplayMember = "NativeName";
+            comboLang.SelectedItem = Thread.CurrentThread.CurrentUICulture;
+            // Reassignar l'event handler
+            comboLang.SelectedIndexChanged += comboLang_SelectedIndexChanged;
+        }
+
+        private void comboLang_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            if (comboLang.SelectedItem is CultureInfo selectedCulture)
+            {
+                SetCulture(selectedCulture);
+            }
+        }
+
+        private void SetCulture(CultureInfo culture)
+        {
+            Thread.CurrentThread.CurrentUICulture = culture;
+            Thread.CurrentThread.CurrentCulture = culture;
+
+            this.Controls.Clear();          // Esborra els controls
+            InitializeComponent();          // Recarrega la UI amb l'idioma nou
+
+            this.Load += new EventHandler(Form1_Load); // Torna a vincular el Load
+            ReomplirComboIdiomes();         // Torna a omplir el combo d'idiomes
+        }
 
 
         private void iniciarUnaPartidaToolStripMenuItem_Click(object sender, EventArgs e)

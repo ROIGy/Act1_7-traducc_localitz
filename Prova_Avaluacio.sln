@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Prova_Avaluacio", "Prova_Avaluacio\Prova_Avaluacio.csproj", "{3834D66B-F9FF-4D26-BC86-A90BA214F99F}"
 EndProject
@@ -20,6 +20,8 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
+		RESX_NeutralResourcesLanguage = ca-ES
+		RESX_CultureCountyOverrides = el=el-GR
 		SolutionGuid = {AF4CC8D6-F8AA-4C94-9F1A-8EF3ACB83BA0}
 	EndGlobalSection
 EndGlobal
