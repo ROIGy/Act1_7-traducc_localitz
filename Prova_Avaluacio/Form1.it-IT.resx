@@ -142,10 +142,10 @@
     <value>Play realizzate</value>
   </data>
   <data name="label6.Text" xml:space="preserve">
-    <value>Guadagnato</value>
+    <value>Guadagnati</value>
   </data>
   <data name="label7.Text" xml:space="preserve">
-    <value>Perduto</value>
+    <value>Perduti</value>
   </data>
   <data name="btnPedra.Text" xml:space="preserve">
     <value>Stone</value>
