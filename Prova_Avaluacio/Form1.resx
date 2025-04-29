@@ -133,6 +133,42 @@
   <data name="sortirDeLaplicacióToolStripMenuItem.Text" xml:space="preserve">
     <value>Sortir de l'aplicació</value>
   </data>
+  <data name="instruccionsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="instruccionsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Instruccions</value>
+  </data>
+  <data name="normesToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="normesToolStripMenuItem.Text" xml:space="preserve">
+    <value>Normes</value>
+  </data>
+  <data name="canviarLidiomaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="canviarLidiomaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Canviar l'idioma</value>
+  </data>
+  <data name="sortirDeLaplicacióToolStripMenuItem1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="sortirDeLaplicacióToolStripMenuItem1.Text" xml:space="preserve">
+    <value>Sortir de l'aplicació</value>
+  </data>
+  <data name="crèditsToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>224, 26</value>
+  </data>
+  <data name="crèditsToolStripMenuItem.Text" xml:space="preserve">
+    <value>Crèdits</value>
+  </data>
+  <data name="ajudaToolStripMenuItem.Size" type="System.Drawing.Size, System.Drawing">
+    <value>62, 24</value>
+  </data>
+  <data name="ajudaToolStripMenuItem.Text" xml:space="preserve">
+    <value>Ajuda</value>
+  </data>
   <data name="menuStrip1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
@@ -199,7 +235,7 @@
     <value>255, 86</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>174, 23</value>
+    <value>174, 25</value>
   </data>
   <data name="label2.TabIndex" type="System.Int32, mscorlib">
     <value>24</value>
@@ -891,11 +927,23 @@
   <data name="&gt;&gt;label11.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
+  <metadata name="helpProvider1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
+    <value>153, 17</value>
+  </metadata>
+  <data name="helpProvider1.HelpNamespace" xml:space="preserve">
+    <value>C:\Users\jorda\source\repos\Act1_7-localitz-traducc\Prova_Avaluacio\help\intstruccionsJoc.html</value>
+  </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
   </metadata>
+  <metadata name="$this.TrayHeight" type="System.Int32, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>53</value>
+  </metadata>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>874, 504</value>
+  </data>
+  <data name="$this.ShowHelp" type="System.Boolean, mscorlib">
+    <value>True</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Form1</value>
@@ -911,6 +959,48 @@
   </data>
   <data name="&gt;&gt;sortirDeLaplicacióToolStripMenuItem.Type" xml:space="preserve">
     <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;ajudaToolStripMenuItem.Name" xml:space="preserve">
+    <value>ajudaToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;ajudaToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;instruccionsToolStripMenuItem.Name" xml:space="preserve">
+    <value>instruccionsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;instruccionsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;normesToolStripMenuItem.Name" xml:space="preserve">
+    <value>normesToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;normesToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;canviarLidiomaToolStripMenuItem.Name" xml:space="preserve">
+    <value>canviarLidiomaToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;canviarLidiomaToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;sortirDeLaplicacióToolStripMenuItem1.Name" xml:space="preserve">
+    <value>sortirDeLaplicacióToolStripMenuItem1</value>
+  </data>
+  <data name="&gt;&gt;sortirDeLaplicacióToolStripMenuItem1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;crèditsToolStripMenuItem.Name" xml:space="preserve">
+    <value>crèditsToolStripMenuItem</value>
+  </data>
+  <data name="&gt;&gt;crèditsToolStripMenuItem.Type" xml:space="preserve">
+    <value>System.Windows.Forms.ToolStripMenuItem, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;helpProvider1.Name" xml:space="preserve">
+    <value>helpProvider1</value>
+  </data>
+  <data name="&gt;&gt;helpProvider1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.HelpProvider, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;$this.Name" xml:space="preserve">
     <value>Form1</value>

@@ -200,5 +200,40 @@ namespace Prova_Avaluacio
         {
             Application.Exit();
         }
+
+        private void instruccionsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string rutaAjuda = Path.Combine(Application.StartupPath, "instruccionsJoc.html");
+            string urlAjuda = "file:///" + rutaAjuda.Replace("\\", "/");
+            Help.ShowHelp(this, urlAjuda);
+        }
+
+        private void normesToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string rutaAjuda = Path.Combine(Application.StartupPath, "normes.html");
+            string urlAjuda = "file:///" + rutaAjuda.Replace("\\", "/");
+            Help.ShowHelp(this, urlAjuda);
+        }
+
+        private void canviarLidiomaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string rutaAjuda = Path.Combine(Application.StartupPath, "canviarIdioma.html");
+            string urlAjuda = "file:///" + rutaAjuda.Replace("\\", "/");
+            Help.ShowHelp(this, urlAjuda);
+        }
+
+        private void sortirDeLaplicacióToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            string rutaAjuda = Path.Combine(Application.StartupPath, "sortir.html");
+            string urlAjuda = "file:///" + rutaAjuda.Replace("\\", "/");
+            Help.ShowHelp(this, urlAjuda);
+        }
+
+        private void crèditsToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            string rutaAjuda = Path.Combine(Application.StartupPath, "credits.html");
+            string urlAjuda = "file:///" + rutaAjuda.Replace("\\", "/");
+            Help.ShowHelp(this, urlAjuda);
+        }
     }
 }

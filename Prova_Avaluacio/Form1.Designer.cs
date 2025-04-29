@@ -21,6 +21,12 @@
             menuStrip1 = new MenuStrip();
             iniciarUnaPartidaToolStripMenuItem = new ToolStripMenuItem();
             sortirDeLaplicacióToolStripMenuItem = new ToolStripMenuItem();
+            ajudaToolStripMenuItem = new ToolStripMenuItem();
+            instruccionsToolStripMenuItem = new ToolStripMenuItem();
+            normesToolStripMenuItem = new ToolStripMenuItem();
+            canviarLidiomaToolStripMenuItem = new ToolStripMenuItem();
+            sortirDeLaplicacióToolStripMenuItem1 = new ToolStripMenuItem();
+            crèditsToolStripMenuItem = new ToolStripMenuItem();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
@@ -49,6 +55,7 @@
             pictureBox5 = new PictureBox();
             comboLang = new ComboBox();
             label11 = new Label();
+            helpProvider1 = new HelpProvider();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)picBoxJugador).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picBoxCPU).BeginInit();
@@ -62,7 +69,7 @@
             // menuStrip1
             // 
             menuStrip1.ImageScalingSize = new Size(20, 20);
-            menuStrip1.Items.AddRange(new ToolStripItem[] { iniciarUnaPartidaToolStripMenuItem, sortirDeLaplicacióToolStripMenuItem });
+            menuStrip1.Items.AddRange(new ToolStripItem[] { iniciarUnaPartidaToolStripMenuItem, sortirDeLaplicacióToolStripMenuItem, ajudaToolStripMenuItem });
             resources.ApplyResources(menuStrip1, "menuStrip1");
             menuStrip1.Name = "menuStrip1";
             // 
@@ -77,6 +84,42 @@
             sortirDeLaplicacióToolStripMenuItem.Name = "sortirDeLaplicacióToolStripMenuItem";
             resources.ApplyResources(sortirDeLaplicacióToolStripMenuItem, "sortirDeLaplicacióToolStripMenuItem");
             sortirDeLaplicacióToolStripMenuItem.Click += sortirDeLaplicacióToolStripMenuItem_Click;
+            // 
+            // ajudaToolStripMenuItem
+            // 
+            ajudaToolStripMenuItem.DropDownItems.AddRange(new ToolStripItem[] { instruccionsToolStripMenuItem, normesToolStripMenuItem, canviarLidiomaToolStripMenuItem, sortirDeLaplicacióToolStripMenuItem1, crèditsToolStripMenuItem });
+            ajudaToolStripMenuItem.Name = "ajudaToolStripMenuItem";
+            resources.ApplyResources(ajudaToolStripMenuItem, "ajudaToolStripMenuItem");
+            // 
+            // instruccionsToolStripMenuItem
+            // 
+            instruccionsToolStripMenuItem.Name = "instruccionsToolStripMenuItem";
+            resources.ApplyResources(instruccionsToolStripMenuItem, "instruccionsToolStripMenuItem");
+            instruccionsToolStripMenuItem.Click += instruccionsToolStripMenuItem_Click;
+            // 
+            // normesToolStripMenuItem
+            // 
+            normesToolStripMenuItem.Name = "normesToolStripMenuItem";
+            resources.ApplyResources(normesToolStripMenuItem, "normesToolStripMenuItem");
+            normesToolStripMenuItem.Click += normesToolStripMenuItem_Click;
+            // 
+            // canviarLidiomaToolStripMenuItem
+            // 
+            canviarLidiomaToolStripMenuItem.Name = "canviarLidiomaToolStripMenuItem";
+            resources.ApplyResources(canviarLidiomaToolStripMenuItem, "canviarLidiomaToolStripMenuItem");
+            canviarLidiomaToolStripMenuItem.Click += canviarLidiomaToolStripMenuItem_Click;
+            // 
+            // sortirDeLaplicacióToolStripMenuItem1
+            // 
+            sortirDeLaplicacióToolStripMenuItem1.Name = "sortirDeLaplicacióToolStripMenuItem1";
+            resources.ApplyResources(sortirDeLaplicacióToolStripMenuItem1, "sortirDeLaplicacióToolStripMenuItem1");
+            sortirDeLaplicacióToolStripMenuItem1.Click += sortirDeLaplicacióToolStripMenuItem1_Click;
+            // 
+            // crèditsToolStripMenuItem
+            // 
+            crèditsToolStripMenuItem.Name = "crèditsToolStripMenuItem";
+            resources.ApplyResources(crèditsToolStripMenuItem, "crèditsToolStripMenuItem");
+            crèditsToolStripMenuItem.Click += crèditsToolStripMenuItem_Click;
             // 
             // label1
             // 
@@ -240,6 +283,10 @@
             resources.ApplyResources(label11, "label11");
             label11.Name = "label11";
             // 
+            // helpProvider1
+            // 
+            resources.ApplyResources(helpProvider1, "helpProvider1");
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -274,6 +321,7 @@
             Controls.Add(menuStrip1);
             MainMenuStrip = menuStrip1;
             Name = "Form1";
+            helpProvider1.SetShowHelp(this, (bool)resources.GetObject("$this.ShowHelp"));
             menuStrip1.ResumeLayout(false);
             menuStrip1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)picBoxJugador).EndInit();
@@ -298,5 +346,12 @@
         private PictureBox picBoxJugador, picBoxCPU, pictureBox1, pictureBox2, pictureBox3, pictureBox4, pictureBox5;
         private ComboBox comboLang;
         private Label label11;
+        private HelpProvider helpProvider1;
+        private ToolStripMenuItem ajudaToolStripMenuItem;
+        private ToolStripMenuItem instruccionsToolStripMenuItem;
+        private ToolStripMenuItem normesToolStripMenuItem;
+        private ToolStripMenuItem canviarLidiomaToolStripMenuItem;
+        private ToolStripMenuItem sortirDeLaplicacióToolStripMenuItem1;
+        private ToolStripMenuItem crèditsToolStripMenuItem;
     }
 }
