@@ -1,4 +1,5 @@
 using System.Globalization;
+using CustomControl;
 
 namespace Prova_Avaluacio
 {

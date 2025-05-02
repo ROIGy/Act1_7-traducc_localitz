@@ -52,3 +52,7 @@ C:\Users\jorda\source\repos\Act1_7-localitz-traducc\Prova_Avaluacio\obj\Debug\ne
 C:\Users\jorda\source\repos\Act1_7-localitz-traducc\Prova_Avaluacio\obj\Debug\net8.0-windows\Prova_Avaluacio.Form1.he-IL.resources
 C:\Users\jorda\source\repos\Act1_7-localitz-traducc\Prova_Avaluacio\obj\Debug\net8.0-windows\chr-Cher\Prova_Avaluacio.resources.dll
 C:\Users\jorda\source\repos\Act1_7-localitz-traducc\Prova_Avaluacio\obj\Debug\net8.0-windows\he-IL\Prova_Avaluacio.resources.dll
+C:\Users\jorda\source\repos\Act1_7-localitz-traducc\Prova_Avaluacio\bin\Debug\net8.0-windows\CustomControl.dll
+C:\Users\jorda\source\repos\Act1_7-localitz-traducc\Prova_Avaluacio\bin\Debug\net8.0-windows\CustomControl.pdb
+C:\Users\jorda\source\repos\Act1_7-localitz-traducc\Prova_Avaluacio\obj\Debug\net8.0-windows\Prova_Avaluacio.csproj.AssemblyReference.cache
+C:\Users\jorda\source\repos\Act1_7-localitz-traducc\Prova_Avaluacio\obj\Debug\net8.0-windows\Prova_Av.E1DC7B64.Up2Date

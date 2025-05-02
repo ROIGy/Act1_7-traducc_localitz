@@ -56,6 +56,7 @@
             comboLang = new ComboBox();
             label11 = new Label();
             helpProvider1 = new HelpProvider();
+            panel1 = new Panel();
             menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)picBoxJugador).BeginInit();
             ((System.ComponentModel.ISupportInitialize)picBoxCPU).BeginInit();
@@ -287,9 +288,15 @@
             // 
             resources.ApplyResources(helpProvider1, "helpProvider1");
             // 
+            // panel1
+            // 
+            resources.ApplyResources(panel1, "panel1");
+            panel1.Name = "panel1";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
+            Controls.Add(panel1);
             Controls.Add(label11);
             Controls.Add(comboLang);
             Controls.Add(pictureBox5);
@@ -353,5 +360,6 @@
         private ToolStripMenuItem canviarLidiomaToolStripMenuItem;
         private ToolStripMenuItem sortirDeLaplicacióToolStripMenuItem1;
         private ToolStripMenuItem crèditsToolStripMenuItem;
+        private Panel panel1;
     }
 }
